@@ -1,30 +1,0 @@
-2026-04-26T16:32:31.348033300255-16:32:31 **** Incremental Build of configuration Debug for project test_boot_ac04 ****
-000-make all 
-000-make --no-print-directory pre-build
-000-a9-linaro-pre-build-step
-000-' '
-000-make --no-print-directory main-build
-000-'Building file: ../src/helloworld.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/AC04_P2/export/AC04_P2/sw/AC04_P2/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
-000-'Finished building: ../src/helloworld.c'
-000-' '
-000-'Building file: ../src/platform.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/AC04_P2/export/AC04_P2/sw/AC04_P2/standalone_domain/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-000-'Finished building: ../src/platform.c'
-000-' '
-000-'Building target: test_boot_ac04.elf'
-000-'Invoking: ARM v7 gcc linker'
-000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/AC04_P2/export/AC04_P2/sw/AC04_P2/standalone_domain/bsplib/lib -o "test_boot_ac04.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000-'Finished building target: test_boot_ac04.elf'
-000-' '
-000-'Invoking: ARM v7 Print Size'
-000-arm-none-eabi-size test_boot_ac04.elf  |tee "test_boot_ac04.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000-  21524	   1144	  22568	  45236	   b0b4	test_boot_ac04.elf
-000-'Finished building: test_boot_ac04.elf.size'
-000-' '
-00255-
-16:32:32 Build Finished (took 1s.172ms)
-

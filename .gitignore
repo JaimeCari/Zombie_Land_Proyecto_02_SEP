@@ -1,0 +1,39 @@
+# --- Vivado & Vitis (Hardware) ---
+# Ignorar carpetas de resultados de compilación y datos temporales
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.runs/
+**/*.sim/
+**/*.gen/
+**/*.runs/
+**/*.Xil/
+
+
+# Logs y journals de Vivado
+vivado*.log
+vivado*.jou
+vivado_pid*.str
+
+# --- Vitis / SDK (Software) ---
+# Ignorar carpetas de compilación del procesador
+**/ps7_cortexa9_0/
+**/standalone_domain/
+**/_ide/
+**/*.bsp
+**/*.elf
+**/*.mmi
+**/*.o
+**/*.d
+
+# --- Archivos de Sistema y OneDrive ---
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+*.tmp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+

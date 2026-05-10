@@ -1,7 +1,0 @@
-//arch = zynq; split = false; format = BIN
-the_ROM_image:
-{
-	[bootloader]C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/DEMO_wrapper/export/DEMO_wrapper/sw/DEMO_wrapper/boot/fsbl.elf
-	C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/AC04_P2/_ide/bitstream/DEMO_wrapper.bit
-	C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/AC04_P2/Debug/AC04_P2.elf
-}
