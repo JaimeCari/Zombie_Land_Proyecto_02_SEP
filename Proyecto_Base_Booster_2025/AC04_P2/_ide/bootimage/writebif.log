@@ -1,0 +1,9 @@
+TRACE::2026-04-26.16:14:35::SCWBifWriter::Found the complete platform C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/DEMO_wrapper/export/DEMO_wrapper/DEMO_wrapper.xpfm
+TRACE::2026-04-26.16:14:35::SCWBifWriter::hardware databse : DEMO_wrapper_2
+TRACE::2026-04-26.16:14:35::SCWBifWriter::bitstream found in the design
+TRACE::2026-04-26.16:14:35::SCWBifWriter::Found a baremetal domain, proc: ps7_cortexa9_0
+TRACE::2026-04-26.16:14:35::SCWBifWriter::proc type : 
+TRACE::2026-04-26.16:14:35::SCWBifWriter::proc[0] : ps7_cortexa9_0
+TRACE::2026-04-26.16:14:35::SCWBifWriter::Device type is : zynq
+TRACE::2026-04-26.16:14:35::SCWBifWriter::Writing BIF to file : C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/AC04_P2/_ide/bootimage/template_AC04_P2.bif
+TRACE::2026-04-26.16:14:35::SCWBifWriter::Writing the Zynq Baremetal bif 

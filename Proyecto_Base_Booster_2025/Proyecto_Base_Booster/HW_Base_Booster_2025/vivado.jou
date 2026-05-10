@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon Apr 27 08:41:53 2026
+# Process ID: 9476
+# Current directory: C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/HW_Base_Booster_2025
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20244 C:\Users\aleja\OneDrive\Escritorio\UC\SEP\Proyecto_Base_Booster_2025\Proyecto_Base_Booster\HW_Base_Booster_2025\Proyecto_Base_Booster_2025.xpr
+# Log file: C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/HW_Base_Booster_2025/vivado.log
+# Journal file: C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/HW_Base_Booster_2025\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/HW_Base_Booster_2025/Proyecto_Base_Booster_2025.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/aleja/OneDrive/Escritorio/UC/SEP/Proyecto_Base_Booster_2025/Proyecto_Base_Booster/HW_Base_Booster_2025/Proyecto_Base_Booster_2025.srcs/sources_1/bd/DEMO/DEMO.bd}
+regenerate_bd_layout
